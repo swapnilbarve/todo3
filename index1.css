@@ -1,0 +1,68 @@
+.box{
+    background-color:none;
+    border: solid red 3px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: orange 3px 8px;
+    line-height: 1;
+    -webkit-backdrop-filter: blur(200px);
+    backdrop-filter: blur(10px);
+height: 150px;
+    width:150px;
+    padding: 20px 40px;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-image: url(/Web\ capture_8-3-2022_15490_127.0.0.1.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter:blur(5px);
+}
+.container{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+@media(min-width:350px) and (max-width:450px){
+    .box{
+        background-color:none;
+        border: solid olivedrab 3px;
+        border-radius: 20px;
+        text-align: center;
+        box-shadow: goldenrod 5px 10px;
+        line-height: 1;
+        -webkit-backdrop-filter: blur(200px);
+        backdrop-filter: blur(10px);
+    height: 150px;
+        width:150px;
+        padding: 20px 40px;
+        background-size: cover;
+    }
+    html,body{
+        height: 100%;
+        width: 100%;
+    }
+    body{
+        background-image: url(/Web\ capture_8-3-2022_15490_127.0.0.1.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        -webkit-backdrop-filter: blur(5px);
+        backdrop-filter:blur(5px);
+    }
+    .container{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        height: 600px;
+        width: 400px;
+        flex-direction: column;
+}
+}

@@ -1,0 +1,73 @@
+.box{
+    background-color:orangered;
+    border: solid green 3px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: green 5px 10px;
+    line-height: 1;
+    -webkit-backdrop-filter: blur(200px);
+    backdrop-filter: blur(10px);
+height: 150px;
+    width:150px;
+    padding: 20px 40px;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-image: url(/cap2.jpg.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter:blur(5px);
+}
+.container{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+.button{
+    color: brown;
+}
+@media (min-width:320px) and (max-width:420px){
+    .box{
+        background-color:orange;
+        border: solid blueviolet 3px;
+        border-radius: 20px;
+        text-align: center;
+        box-shadow: goldenrod 5px 10px;
+        line-height: 1;
+        -webkit-backdrop-filter: blur(200px);
+        backdrop-filter: blur(10px);
+    height: 80px;
+        width:150px;
+        padding: 20px 40px;
+    }
+    html,body{
+        height: 600px;
+        width:400px;
+    }
+    body{
+        background-image: url(/cap2.jpg.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        -webkit-backdrop-filter: blur(5px);
+        backdrop-filter:blur(5px);
+    }
+    .container{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        height: 600px;
+        width: 400px;
+    }
+    .button{
+        color: brown;
+        background-color: bisque;
+    }
+}
